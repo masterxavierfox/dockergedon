@@ -1,0 +1,19 @@
+# Ignore all files
+*
+
+# Allow Go source files
+!*.go
+
+# Allow go.mod and go.sum
+!go.mod
+!go.sum
+
+# Ignore Makefile and Dockerfile
+Makefile
+Dockerfile
+
+# Ignore compiled binary
+migration
+dockerdon
+build/*
+.idea/*
